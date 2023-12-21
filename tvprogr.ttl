@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+<https://w3id.org/tvprogr/prog> rdf:type rdf:Property;
+    rdfs:comment "番組の放送回"@ja;
+    rdfs:label "番組"@ja.
+<https://w3id.org/tvprogr/region> rdf:type rdf:Property;
+    rdfs:comment "地域"@ja;
+    rdfs:label "地域"@ja.
+<https://w3id.org/tvprogr/station> rdf:type rdf:Property;
+    rdfs:comment "番組を放送している放送局のコールサイン"@ja;
+    rdfs:label "放送局"@ja.
+<https://w3id.org/tvprogr/channel> rdf:type rdf:Property;
+    rdfs:comment "番組を放送しているチャンネルの番号"@ja;
+    rdfs:label "放送チャンネル"@ja.
+<https://w3id.org/tvprogr/start> rdf:type rdf:Property;
+    rdfs:comment "番組の放送開始時分"@ja;
+    rdfs:label "開始時分"@ja.
+<https://w3id.org/tvprogr/subgenre> rdf:type rdf:Property;
+    rdfs:comment "番組ジャンルの小分類"@ja;
+    rdfs:label "小ジャンル"@ja.
+<https://w3id.org/tvprogr/type> rdf:type rdf:Property;
+    rdfs:comment "スポットの分類，または関係の種類"@ja;
+    rdfs:label "分類"@ja.
+<https://w3id.org/tvprogr/note> rdf:type rdf:Property;
+    rdfs:comment "関係の詳細な説明"@ja;
+    rdfs:label "関係の説明"@ja.
+<https://w3id.org/tvprogr/coverage> rdf:type rdf:Property;
+    rdfs:comment ""@ja;
+    rdfs:label "時間的な主題"@ja.
+<https://w3id.org/tvprogr/context> rdf:type rdf:Property;
+    rdfs:comment "関係が発生した経緯またはパターン"@ja;
+    rdfs:label "関係文脈"@ja.

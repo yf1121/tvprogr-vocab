@@ -1,0 +1,3 @@
+<https://w3id.org/tvprogr/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "スポットの分類，または関係の種類"@ja;
+	<http://www.w3.org/2000/01/rdf-schema#label> "分類"@ja.
